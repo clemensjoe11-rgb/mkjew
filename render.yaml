@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: mk-jewel
-    env: node
-    plan: free
-    buildCommand: npm ci && npm run build
-    startCommand: npm run start
-    autoDeploy: true
